@@ -3430,151 +3430,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_BJT:TIP127"
 			(pin_names
 				(offset 0) hide)
@@ -4584,10 +4439,22 @@
 		(uuid "05599eaa-8686-47f1-898e-3f18dc37302b")
 	)
 	(junction
+		(at 226.06 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f5a08bb-ec88-40cd-845f-38c5acb04124")
+	)
+	(junction
 		(at 179.07 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e077116-1ba9-43a6-bec9-066451cde881")
+	)
+	(junction
+		(at 226.06 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24fce5d7-072a-47a8-a86b-f04ad7802087")
 	)
 	(junction
 		(at 97.79 67.31)
@@ -4626,12 +4493,6 @@
 		(uuid "af7a261f-4d1d-4011-b2a2-197b84291c8c")
 	)
 	(junction
-		(at 34.29 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2a1a83b-d07a-46c4-a3c9-8b2445b4ce1e")
-	)
-	(junction
 		(at 149.86 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4656,6 +4517,12 @@
 		(uuid "e6ee60c1-320e-4d90-a789-1711584cc965")
 	)
 	(junction
+		(at 201.93 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4480161-793a-4196-b413-61bac61077da")
+	)
+	(junction
 		(at 163.83 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4664,10 +4531,6 @@
 	(no_connect
 		(at 34.29 152.4)
 		(uuid "025e8062-a314-4a9c-afcf-5c6d4ea66b88")
-	)
-	(no_connect
-		(at 64.77 134.62)
-		(uuid "059e1575-a512-4f45-92c8-4bf2c9d2fe42")
 	)
 	(no_connect
 		(at 64.77 132.08)
@@ -4759,6 +4622,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 128.27) (xy 226.06 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07966cf7-65e6-454f-a953-755202ced215")
+	)
+	(wire
+		(pts
 			(xy 189.23 67.31) (xy 189.23 72.39)
 		)
 		(stroke
@@ -4816,6 +4689,26 @@
 			(type default)
 		)
 		(uuid "1ac0b079-817e-4881-83cb-a074fed6eac1")
+	)
+	(wire
+		(pts
+			(xy 215.9 129.54) (xy 226.06 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd6e1a9-ff78-436f-8318-d8a5e67afdd9")
+	)
+	(wire
+		(pts
+			(xy 226.06 144.78) (xy 215.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3107392d-6967-4aff-b4a3-fe6e948d697b")
 	)
 	(wire
 		(pts
@@ -4956,6 +4849,16 @@
 			(type default)
 		)
 		(uuid "694a52a4-aa9b-444f-b934-53e7624af8db")
+	)
+	(wire
+		(pts
+			(xy 198.12 36.83) (xy 201.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4850a1-c377-4179-8ba4-3992226488bd")
 	)
 	(wire
 		(pts
@@ -5119,6 +5022,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 119.38) (xy 233.68 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc375ac-e3ff-48bc-913f-aac809359620")
+	)
+	(wire
+		(pts
 			(xy 187.96 119.38) (xy 187.96 129.54)
 		)
 		(stroke
@@ -5149,6 +5062,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 129.54) (xy 215.9 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a695b95c-09ae-4bc6-8bd8-5ee689365746")
+	)
+	(wire
+		(pts
 			(xy 180.34 128.27) (xy 180.34 129.54)
 		)
 		(stroke
@@ -5156,6 +5079,36 @@
 			(type default)
 		)
 		(uuid "aa079d29-665d-4441-89e9-0241585ce77b")
+	)
+	(wire
+		(pts
+			(xy 236.22 119.38) (xy 236.22 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab115168-c4e2-4069-9c81-e96aee315f59")
+	)
+	(wire
+		(pts
+			(xy 201.93 36.83) (xy 204.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b142327d-f5e7-4958-8510-7aa9c6abaeb5")
+	)
+	(wire
+		(pts
+			(xy 238.76 119.38) (xy 238.76 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a9b61d-661a-43d0-9084-30351db192db")
 	)
 	(wire
 		(pts
@@ -5229,6 +5182,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 140.97) (xy 215.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4abc4d7-9bb8-4984-89ca-15ad552c134f")
+	)
+	(wire
+		(pts
 			(xy 146.05 72.39) (xy 156.21 72.39)
 		)
 		(stroke
@@ -5249,7 +5212,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 90.17) (xy 34.29 99.06)
+			(xy 34.29 90.17) (xy 34.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5269,13 +5232,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 99.06) (xy 34.29 116.84)
+			(xy 226.06 146.05) (xy 226.06 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4107e54-b70b-4191-b438-8eade58ff633")
+		(uuid "f8edf33d-cc9a-4c1b-90b9-253d9ea8262b")
 	)
 	(wire
 		(pts
@@ -5415,7 +5378,7 @@
 			)
 		)
 	)
-	(global_label "GPIO16"
+	(global_label "REL1"
 		(shape input)
 		(at 78.74 35.56 180)
 		(fields_autoplaced yes)
@@ -5427,7 +5390,7 @@
 		)
 		(uuid "1e34ddbe-c388-4cb1-a485-2fc7e9d05820")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.8605 35.56 0)
+			(at 71.0982 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,7 +5400,7 @@
 			)
 		)
 	)
-	(global_label "GPIO17"
+	(global_label "REL2"
 		(shape input)
 		(at 146.05 36.83 180)
 		(fields_autoplaced yes)
@@ -5449,7 +5412,7 @@
 		)
 		(uuid "204da6b9-157e-44a8-a131-2023c1d0c354")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.1705 36.83 0)
+			(at 138.4082 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +5532,7 @@
 			)
 		)
 	)
-	(global_label "GPIO16"
+	(global_label "REL1"
 		(shape input)
 		(at 68.58 121.92 0)
 		(fields_autoplaced yes)
@@ -5581,7 +5544,7 @@
 		)
 		(uuid "33ba2ea0-f31e-482e-83d9-45ac7b2ab65a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.4595 121.92 0)
+			(at 76.2218 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,6 +5620,28 @@
 			)
 		)
 	)
+	(global_label "Ativa_Relé_3"
+		(shape input)
+		(at 219.71 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a824d5e-702f-464f-ae8c-901bcf5b6f81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 16.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIOA"
 		(shape input)
 		(at 92.71 180.34 180)
@@ -5679,7 +5664,29 @@
 			)
 		)
 	)
-	(global_label "GPIO17"
+	(global_label "REL3"
+		(shape input)
+		(at 64.77 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a93a8c5-b93f-488b-862f-0b226de39596")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.4118 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "REL2"
 		(shape input)
 		(at 64.77 139.7 0)
 		(fields_autoplaced yes)
@@ -5691,7 +5698,7 @@
 		)
 		(uuid "719f6347-7fb4-4e25-93b2-f74f533260f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.6495 139.7 0)
+			(at 72.4118 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5811,6 +5818,28 @@
 			)
 		)
 	)
+	(global_label "REL3"
+		(shape input)
+		(at 198.12 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0690720-c770-46ab-a56a-3dc42a3258c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4782 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RX"
 		(shape input)
 		(at 68.58 124.46 0)
@@ -5890,6 +5919,28 @@
 		(uuid "b0c81ec4-0c83-4ca3-aa93-939c38a2905d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.9795 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ativa_Relé_3"
+		(shape input)
+		(at 226.06 146.05 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b201e4fa-6a39-438f-ac3e-6b298cbad073")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 160.828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,6 +6370,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 201.93 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bb4e180-174a-47bc-ae5e-fa43cf8e9c7a")
+		(property "Reference" "D7"
+			(at 205.74 48.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 205.74 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 201.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 201.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c817eaab-f672-41c2-bf21-60f1cc6695fc")
+		)
+		(pin "1"
+			(uuid "c9e29c0b-0e7a-4efd-a433-adea32e998d1")
+		)
+		(instances
+			(project "AdeJiga"
+				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4007")
 		(at 63.5 67.31 180)
 		(unit 1)
@@ -6405,6 +6526,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 208.28 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "219253dd-2196-4b58-b065-dcfc1f855efe")
+		(property "Reference" "R8"
+			(at 208.28 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 208.28 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 208.28 38.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0663a51a-1398-4417-8020-5a891d689ff3")
+		)
+		(pin "1"
+			(uuid "b8cb847f-edf0-468d-8b38-eb3036a88d1a")
+		)
+		(instances
+			(project "AdeJiga"
+				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 97.79 180.34 180)
 		(unit 1)
@@ -6478,6 +6667,72 @@
 			(project "AdeJiga"
 				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "244e85e3-66df-40f2-811c-16c49fd23e88")
+		(property "Reference" "#PWR030"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1496e441-c96d-4161-8f56-5b8a7189bd73")
+		)
+		(instances
+			(project "AdeJiga"
+				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6985,6 +7240,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Benzlab:JJM1C_relay")
+		(at 231.14 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b830d55-b25c-4501-9766-fd8eb1bee450")
+		(property "Reference" "K3"
+			(at 242.57 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JJM1C_relay"
+			(at 242.57 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Benzlab:JJM1C_relay"
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
+			(at 231.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a7017355-f4b9-4e92-90ac-6144863532b9")
+		)
+		(pin "5"
+			(uuid "fc10378a-42ee-4c0d-9815-c2904287dc99")
+		)
+		(pin "2"
+			(uuid "9a078047-7098-48bc-aa4e-aa73caf08d45")
+		)
+		(pin "1"
+			(uuid "214d87b9-2d9e-4dda-9574-ae9cb652abf3")
+		)
+		(pin "3"
+			(uuid "e210ba77-9987-491b-9601-b4692e436457")
+		)
+		(instances
+			(project "AdeJiga"
+				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 125.73 0)
 		(unit 1)
@@ -7116,6 +7451,208 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 201.93 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "548a10da-896a-4bfb-9c4f-2d0269ba993f")
+		(property "Reference" "R7"
+			(at 204.47 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 204.47 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 203.708 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb5b24cb-8f9c-442e-a1cb-d84955fab2cf")
+		)
+		(pin "1"
+			(uuid "8d2dc8dc-fe87-4328-b7d3-6656bfe5bd18")
+		)
+		(instances
+			(project "AdeJiga"
+				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5513b3fc-8250-4bbd-ba62-b5bccf971ef9")
+		(property "Reference" "#PWR029"
+			(at 201.93 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b983b92-ccb7-4a2a-b1c8-2268907e803d")
+		)
+		(instances
+			(project "AdeJiga"
+				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 226.06 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bac4de0-abf1-41cd-8a2d-05970d8b66f2")
+		(property "Reference" "#PWR028"
+			(at 226.06 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 226.06 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8731723-c6a5-430e-8a27-4bbf07e936bf")
+		)
+		(instances
+			(project "AdeJiga"
+				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 80.01 0)
 		(unit 1)
@@ -7176,6 +7713,94 @@
 			(project "AdeJiga"
 				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4007")
+		(at 215.9 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64fad1f4-f824-49a1-b8d4-3984cfb03557")
+		(property "Reference" "D6"
+			(at 218.44 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 218.44 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 211.455 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f947c6fc-0c72-41f1-870c-36f590df63e3")
+		)
+		(pin "2"
+			(uuid "1bd31cf3-802c-4a4b-88ad-faff5f74a42f")
+		)
+		(instances
+			(project "AdeJiga"
+				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8369,72 +8994,6 @@
 			(project "AdeJiga"
 				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 24.13 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0309ade-288e-47de-9dae-561e0b95d9fe")
-		(property "Reference" "#PWR027"
-			(at 24.13 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45effa19-9125-4f9d-893b-ad9e4e7ddfbe")
-		)
-		(instances
-			(project "AdeJiga"
-				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9919,6 +10478,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:TIP127")
+		(at 217.17 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4078bb5-af4a-4ef8-8d37-302525090f27")
+		(property "Reference" "Q2"
+			(at 223.52 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TIP127"
+			(at 223.52 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 222.25 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/TIP120-D.PDF"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5A Ic, 100V Vce, Silicon Darlington Power PNP Transistor, TO-220"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "be5e41a3-4b9e-4941-acd4-a92ef8617fa8")
+		)
+		(pin "1"
+			(uuid "72dbdad8-e966-45d6-a8d1-8413654bf2c4")
+		)
+		(pin "2"
+			(uuid "fb1fa894-546c-4c47-bb9a-2aec13bd9e00")
+		)
+		(instances
+			(project "AdeJiga"
+				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Benzlab:JJM1C_relay")
 		(at 142.24 137.16 0)
 		(unit 1)
@@ -9999,33 +10634,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 29.21 99.06 0)
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 236.22 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e8786a6f-4153-4dcd-b6c0-135e95b8c13b")
-		(property "Reference" "SW1"
-			(at 29.21 91.44 0)
+		(uuid "e8218dd2-d19a-42bf-942d-a33e0e71bacf")
+		(property "Reference" "J12"
+			(at 241.3 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 29.21 93.98 0)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 241.3 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 29.21 93.98 0)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05503HBWC_1x03_P5.00mm_Horizontal"
+			(at 236.22 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +10671,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 93.98 0)
+			(at 236.22 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10042,25 +10679,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 29.21 99.06 0)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 236.22 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "10db71ba-b653-48a1-9f86-e3ad91a89ec0")
 		)
 		(pin "2"
-			(uuid "15ae0388-19f1-41cb-a9cb-a0d41a74f255")
+			(uuid "d68d062d-49c4-4727-acd6-0dadca68584b")
+		)
+		(pin "3"
+			(uuid "e71a09e1-881a-476b-8958-7a525e8bb469")
+		)
+		(pin "1"
+			(uuid "d549c7b9-e5bc-4bf6-b6ff-3098bb24c83c")
 		)
 		(instances
 			(project "AdeJiga"
 				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
-					(reference "SW1")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -10274,76 +10914,6 @@
 			(project "AdeJiga"
 				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
 					(reference "K2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 24.13 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f500de60-9d7e-4cd8-88d9-77f12623344a")
-		(property "Reference" "R6"
-			(at 26.67 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 26.67 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
-			(at 25.908 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 24.13 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b8a810b7-21bf-41f8-91fc-96f0f3bf8360")
-		)
-		(pin "1"
-			(uuid "d13685cf-bd67-4d6a-9d0e-3fddce12b748")
-		)
-		(instances
-			(project "AdeJiga"
-				(path "/d78baa58-d04d-4b34-b63e-862a388bf009"
-					(reference "R6")
 					(unit 1)
 				)
 			)
